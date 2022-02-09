@@ -7,11 +7,24 @@
 
 import UIKit
 
+enum Operator: String {
+    case substract = "-"
+    case add = "+"
+    case equate = "="
+}
+
+protocol CustomKeyboardProtocol: AnyObject {
+    func didPressNumber(_ number: Int)
+    func didPressOperator(_ op: Operator)
+}
+
 class CustomKeyboard: UIView {
 
     // Ensure that this and the class name are equal
     private let nibName: String = "CustomKeyboard"
     private var contentView: UIView!
+
+    weak var delegate: CustomKeyboardProtocol?
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -28,8 +41,6 @@ class CustomKeyboard: UIView {
         view.frame = self.bounds
         self.addSubview(view)
         contentView = view
-
-        self.contentView.backgroundColor = .red
     }
 
     func loadFromNib() -> UIView? {
@@ -37,6 +48,28 @@ class CustomKeyboard: UIView {
         let nib = UINib(nibName: nibName, bundle: bundle)
         return nib.instantiate(withOwner: self, options: nil).first as? UIView
     }
+
+    @IBAction func onKeyPress(_ sender: UIButton) {
+        guard let titleText: String = sender.titleLabel?.text else { return }
+
+        if let number = Int(titleText) {
+            delegate?.didPressNumber(number)
+        } else {
+            let op: Operator
+            switch titleText {
+            case "=":
+                op = Operator.equate
+            case "+":
+                op = Operator.add
+            case "-":
+                op = Operator.substract
+            default:
+                return
+            }
+            delegate?.didPressOperator(op)
+        }
+    }
+
 
 }
 

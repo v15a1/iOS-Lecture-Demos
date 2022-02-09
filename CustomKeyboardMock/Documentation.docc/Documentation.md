@@ -10,3 +10,4 @@
 2. Connecting the interactions of the buttons with a `UILabel`
 3. Adding animations
 4. `guard` statements
+5. Enumerations

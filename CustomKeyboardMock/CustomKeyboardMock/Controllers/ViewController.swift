@@ -9,11 +9,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var customKeyboard: CustomKeyboard!
+    @IBOutlet weak var calculatorLabel: UILabel!
+
+    private var calcString: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        customKeyboard.delegate = self
+    }
+}
+
+extension ViewController: CustomKeyboardProtocol {
+    func didPressNumber(_ number: Int) {
+        calcString += "\(number)"
+        calculatorLabel.text = calcString
+    }
+
+    func didPressOperator(_ op: Operator) {
+        calcString += op.rawValue
+        calculatorLabel.text = calcString
     }
 
 
 }
-
