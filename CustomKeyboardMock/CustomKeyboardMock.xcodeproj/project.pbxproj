@@ -13,27 +13,10 @@
 		4B7DB7EA27B42A57003B5C95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7DB7E827B42A57003B5C95 /* Main.storyboard */; };
 		4B7DB7EC27B42A59003B5C95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B7DB7EB27B42A59003B5C95 /* Assets.xcassets */; };
 		4B7DB7EF27B42A59003B5C95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7DB7ED27B42A59003B5C95 /* LaunchScreen.storyboard */; };
-		4B7DB7FA27B42A5A003B5C95 /* CustomKeyboardMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7DB7F927B42A5A003B5C95 /* CustomKeyboardMockTests.swift */; };
-		4B7DB80427B42A5A003B5C95 /* CustomKeyboardMockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7DB80327B42A5A003B5C95 /* CustomKeyboardMockUITests.swift */; };
-		4B7DB80627B42A5A003B5C95 /* CustomKeyboardMockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7DB80527B42A5A003B5C95 /* CustomKeyboardMockUITestsLaunchTests.swift */; };
+		4B7DB81827B42CCD003B5C95 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7DB81727B42CCD003B5C95 /* Documentation.docc */; };
+		4B7DB81A27B4305E003B5C95 /* CustomKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7DB81927B4305E003B5C95 /* CustomKeyboard.swift */; };
+		4B7DB81D27B4311E003B5C95 /* CustomKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B7DB81C27B4311E003B5C95 /* CustomKeyboard.xib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4B7DB7F627B42A5A003B5C95 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4B7DB7D727B42A57003B5C95 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4B7DB7DE27B42A57003B5C95;
-			remoteInfo = CustomKeyboardMock;
-		};
-		4B7DB80027B42A5A003B5C95 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4B7DB7D727B42A57003B5C95 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4B7DB7DE27B42A57003B5C95;
-			remoteInfo = CustomKeyboardMock;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4B7DB7DF27B42A57003B5C95 /* CustomKeyboardMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomKeyboardMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,29 +27,13 @@
 		4B7DB7EB27B42A59003B5C95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B7DB7EE27B42A59003B5C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B7DB7F027B42A59003B5C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B7DB7F527B42A5A003B5C95 /* CustomKeyboardMockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomKeyboardMockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B7DB7F927B42A5A003B5C95 /* CustomKeyboardMockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboardMockTests.swift; sourceTree = "<group>"; };
-		4B7DB7FF27B42A5A003B5C95 /* CustomKeyboardMockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomKeyboardMockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B7DB80327B42A5A003B5C95 /* CustomKeyboardMockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboardMockUITests.swift; sourceTree = "<group>"; };
-		4B7DB80527B42A5A003B5C95 /* CustomKeyboardMockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboardMockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4B7DB81727B42CCD003B5C95 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		4B7DB81927B4305E003B5C95 /* CustomKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboard.swift; sourceTree = "<group>"; };
+		4B7DB81C27B4311E003B5C95 /* CustomKeyboard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomKeyboard.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4B7DB7DC27B42A57003B5C95 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B7DB7F227B42A5A003B5C95 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B7DB7FC27B42A5A003B5C95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,9 +46,8 @@
 		4B7DB7D627B42A57003B5C95 = {
 			isa = PBXGroup;
 			children = (
+				4B7DB81727B42CCD003B5C95 /* Documentation.docc */,
 				4B7DB7E127B42A57003B5C95 /* CustomKeyboardMock */,
-				4B7DB7F827B42A5A003B5C95 /* CustomKeyboardMockTests */,
-				4B7DB80227B42A5A003B5C95 /* CustomKeyboardMockUITests */,
 				4B7DB7E027B42A57003B5C95 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				4B7DB7DF27B42A57003B5C95 /* CustomKeyboardMock.app */,
-				4B7DB7F527B42A5A003B5C95 /* CustomKeyboardMockTests.xctest */,
-				4B7DB7FF27B42A5A003B5C95 /* CustomKeyboardMockUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,32 +63,73 @@
 		4B7DB7E127B42A57003B5C95 /* CustomKeyboardMock */ = {
 			isa = PBXGroup;
 			children = (
-				4B7DB7E227B42A57003B5C95 /* AppDelegate.swift */,
-				4B7DB7E427B42A57003B5C95 /* SceneDelegate.swift */,
-				4B7DB7E627B42A57003B5C95 /* ViewController.swift */,
-				4B7DB7E827B42A57003B5C95 /* Main.storyboard */,
-				4B7DB7EB27B42A59003B5C95 /* Assets.xcassets */,
-				4B7DB7ED27B42A59003B5C95 /* LaunchScreen.storyboard */,
+				4B7DB81F27B433D4003B5C95 /* Extensions */,
+				4B7DB81227B42B53003B5C95 /* App */,
+				4B7DB81327B42B81003B5C95 /* Controllers */,
+				4B7DB81427B42B9C003B5C95 /* Views */,
+				4B7DB81527B42BAB003B5C95 /* Assets */,
 				4B7DB7F027B42A59003B5C95 /* Info.plist */,
 			);
 			path = CustomKeyboardMock;
 			sourceTree = "<group>";
 		};
-		4B7DB7F827B42A5A003B5C95 /* CustomKeyboardMockTests */ = {
+		4B7DB81227B42B53003B5C95 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				4B7DB7F927B42A5A003B5C95 /* CustomKeyboardMockTests.swift */,
+				4B7DB7E227B42A57003B5C95 /* AppDelegate.swift */,
+				4B7DB7E427B42A57003B5C95 /* SceneDelegate.swift */,
 			);
-			path = CustomKeyboardMockTests;
+			path = App;
 			sourceTree = "<group>";
 		};
-		4B7DB80227B42A5A003B5C95 /* CustomKeyboardMockUITests */ = {
+		4B7DB81327B42B81003B5C95 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4B7DB80327B42A5A003B5C95 /* CustomKeyboardMockUITests.swift */,
-				4B7DB80527B42A5A003B5C95 /* CustomKeyboardMockUITestsLaunchTests.swift */,
+				4B7DB7E627B42A57003B5C95 /* ViewController.swift */,
 			);
-			path = CustomKeyboardMockUITests;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4B7DB81427B42B9C003B5C95 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B7DB7E827B42A57003B5C95 /* Main.storyboard */,
+				4B7DB7ED27B42A59003B5C95 /* LaunchScreen.storyboard */,
+				4B7DB81B27B43065003B5C95 /* Reusables */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4B7DB81527B42BAB003B5C95 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4B7DB7EB27B42A59003B5C95 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		4B7DB81B27B43065003B5C95 /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+				4B7DB81E27B432E6003B5C95 /* CustomKeyboard */,
+			);
+			path = Reusables;
+			sourceTree = "<group>";
+		};
+		4B7DB81E27B432E6003B5C95 /* CustomKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4B7DB81927B4305E003B5C95 /* CustomKeyboard.swift */,
+				4B7DB81C27B4311E003B5C95 /* CustomKeyboard.xib */,
+			);
+			path = CustomKeyboard;
+			sourceTree = "<group>";
+		};
+		4B7DB81F27B433D4003B5C95 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +152,6 @@
 			productReference = 4B7DB7DF27B42A57003B5C95 /* CustomKeyboardMock.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4B7DB7F427B42A5A003B5C95 /* CustomKeyboardMockTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4B7DB80C27B42A5A003B5C95 /* Build configuration list for PBXNativeTarget "CustomKeyboardMockTests" */;
-			buildPhases = (
-				4B7DB7F127B42A5A003B5C95 /* Sources */,
-				4B7DB7F227B42A5A003B5C95 /* Frameworks */,
-				4B7DB7F327B42A5A003B5C95 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4B7DB7F727B42A5A003B5C95 /* PBXTargetDependency */,
-			);
-			name = CustomKeyboardMockTests;
-			productName = CustomKeyboardMockTests;
-			productReference = 4B7DB7F527B42A5A003B5C95 /* CustomKeyboardMockTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4B7DB7FE27B42A5A003B5C95 /* CustomKeyboardMockUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4B7DB80F27B42A5A003B5C95 /* Build configuration list for PBXNativeTarget "CustomKeyboardMockUITests" */;
-			buildPhases = (
-				4B7DB7FB27B42A5A003B5C95 /* Sources */,
-				4B7DB7FC27B42A5A003B5C95 /* Frameworks */,
-				4B7DB7FD27B42A5A003B5C95 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4B7DB80127B42A5A003B5C95 /* PBXTargetDependency */,
-			);
-			name = CustomKeyboardMockUITests;
-			productName = CustomKeyboardMockUITests;
-			productReference = 4B7DB7FF27B42A5A003B5C95 /* CustomKeyboardMockUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +164,6 @@
 				TargetAttributes = {
 					4B7DB7DE27B42A57003B5C95 = {
 						CreatedOnToolsVersion = 13.0;
-					};
-					4B7DB7F427B42A5A003B5C95 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = 4B7DB7DE27B42A57003B5C95;
-					};
-					4B7DB7FE27B42A5A003B5C95 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = 4B7DB7DE27B42A57003B5C95;
 					};
 				};
 			};
@@ -220,8 +181,6 @@
 			projectRoot = "";
 			targets = (
 				4B7DB7DE27B42A57003B5C95 /* CustomKeyboardMock */,
-				4B7DB7F427B42A5A003B5C95 /* CustomKeyboardMockTests */,
-				4B7DB7FE27B42A5A003B5C95 /* CustomKeyboardMockUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,20 +193,7 @@
 				4B7DB7EF27B42A59003B5C95 /* LaunchScreen.storyboard in Resources */,
 				4B7DB7EC27B42A59003B5C95 /* Assets.xcassets in Resources */,
 				4B7DB7EA27B42A57003B5C95 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B7DB7F327B42A5A003B5C95 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B7DB7FD27B42A5A003B5C95 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				4B7DB81D27B4311E003B5C95 /* CustomKeyboard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,42 +205,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B7DB7E727B42A57003B5C95 /* ViewController.swift in Sources */,
+				4B7DB81A27B4305E003B5C95 /* CustomKeyboard.swift in Sources */,
 				4B7DB7E327B42A57003B5C95 /* AppDelegate.swift in Sources */,
 				4B7DB7E527B42A57003B5C95 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B7DB7F127B42A5A003B5C95 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B7DB7FA27B42A5A003B5C95 /* CustomKeyboardMockTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B7DB7FB27B42A5A003B5C95 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B7DB80627B42A5A003B5C95 /* CustomKeyboardMockUITestsLaunchTests.swift in Sources */,
-				4B7DB80427B42A5A003B5C95 /* CustomKeyboardMockUITests.swift in Sources */,
+				4B7DB81827B42CCD003B5C95 /* Documentation.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4B7DB7F727B42A5A003B5C95 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4B7DB7DE27B42A57003B5C95 /* CustomKeyboardMock */;
-			targetProxy = 4B7DB7F627B42A5A003B5C95 /* PBXContainerItemProxy */;
-		};
-		4B7DB80127B42A5A003B5C95 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4B7DB7DE27B42A57003B5C95 /* CustomKeyboardMock */;
-			targetProxy = 4B7DB80027B42A5A003B5C95 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4B7DB7E827B42A57003B5C95 /* Main.storyboard */ = {
@@ -488,102 +406,6 @@
 			};
 			name = Release;
 		};
-		4B7DB80D27B42A5A003B5C95 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FVZ5PWG6VV;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.visal.lk.CustomKeyboardMockTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomKeyboardMock.app/CustomKeyboardMock";
-			};
-			name = Debug;
-		};
-		4B7DB80E27B42A5A003B5C95 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FVZ5PWG6VV;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.visal.lk.CustomKeyboardMockTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomKeyboardMock.app/CustomKeyboardMock";
-			};
-			name = Release;
-		};
-		4B7DB81027B42A5A003B5C95 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FVZ5PWG6VV;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.visal.lk.CustomKeyboardMockUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CustomKeyboardMock;
-			};
-			name = Debug;
-		};
-		4B7DB81127B42A5A003B5C95 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FVZ5PWG6VV;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.visal.lk.CustomKeyboardMockUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CustomKeyboardMock;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -601,24 +423,6 @@
 			buildConfigurations = (
 				4B7DB80A27B42A5A003B5C95 /* Debug */,
 				4B7DB80B27B42A5A003B5C95 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4B7DB80C27B42A5A003B5C95 /* Build configuration list for PBXNativeTarget "CustomKeyboardMockTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4B7DB80D27B42A5A003B5C95 /* Debug */,
-				4B7DB80E27B42A5A003B5C95 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4B7DB80F27B42A5A003B5C95 /* Build configuration list for PBXNativeTarget "CustomKeyboardMockUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4B7DB81027B42A5A003B5C95 /* Debug */,
-				4B7DB81127B42A5A003B5C95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
