@@ -7,31 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B20446A27C4CA520025BB9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B20446927C4CA520025BB9C /* AppDelegate.swift */; };
-		4B20446C27C4CA520025BB9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B20446B27C4CA520025BB9C /* SceneDelegate.swift */; };
-		4B20446E27C4CA520025BB9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B20446D27C4CA520025BB9C /* ViewController.swift */; };
-		4B20447127C4CA520025BB9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B20446F27C4CA520025BB9C /* Main.storyboard */; };
-		4B20447327C4CA540025BB9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B20447227C4CA540025BB9C /* Assets.xcassets */; };
-		4B20447627C4CA540025BB9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B20447427C4CA540025BB9C /* LaunchScreen.storyboard */; };
-		4B20449D27C4CB400025BB9C /* ReusableColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B20449C27C4CB400025BB9C /* ReusableColorSlider.swift */; };
-		4B20449F27C4CB4A0025BB9C /* ReusableColorSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B20449E27C4CB4A0025BB9C /* ReusableColorSlider.xib */; };
+		4B1A80E227C52E170070BBF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1A80E127C52E170070BBF9 /* AppDelegate.swift */; };
+		4B1A80E427C52E170070BBF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1A80E327C52E170070BBF9 /* SceneDelegate.swift */; };
+		4B1A80E627C52E170070BBF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1A80E527C52E170070BBF9 /* ViewController.swift */; };
+		4B1A80E927C52E170070BBF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1A80E727C52E170070BBF9 /* Main.storyboard */; };
+		4B1A80EB27C52E180070BBF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B1A80EA27C52E180070BBF9 /* Assets.xcassets */; };
+		4B1A80EE27C52E180070BBF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1A80EC27C52E180070BBF9 /* LaunchScreen.storyboard */; };
+		4B8BF86827C5309D009AB409 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8BF86727C5309D009AB409 /* ColorExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4B20446627C4CA520025BB9C /* ColourMixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColourMixer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B20446927C4CA520025BB9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B20446B27C4CA520025BB9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4B20446D27C4CA520025BB9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4B20447027C4CA520025BB9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4B20447227C4CA540025BB9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4B20447527C4CA540025BB9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4B20447727C4CA540025BB9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B20449C27C4CB400025BB9C /* ReusableColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableColorSlider.swift; sourceTree = "<group>"; };
-		4B20449E27C4CB4A0025BB9C /* ReusableColorSlider.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReusableColorSlider.xib; sourceTree = "<group>"; };
+		4B1A80DE27C52E170070BBF9 /* CustomKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1A80E127C52E170070BBF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B1A80E327C52E170070BBF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4B1A80E527C52E170070BBF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B1A80E827C52E170070BBF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B1A80EA27C52E180070BBF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B1A80ED27C52E180070BBF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B1A80EF27C52E180070BBF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8BF86727C5309D009AB409 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4B20446327C4CA520025BB9C /* Frameworks */ = {
+		4B1A80DB27C52E170070BBF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,114 +39,113 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4B20445D27C4CA510025BB9C = {
+		4B1A80D527C52E160070BBF9 = {
 			isa = PBXGroup;
 			children = (
-				4B20446827C4CA520025BB9C /* ColourMixer */,
-				4B20446727C4CA520025BB9C /* Products */,
+				4B1A80E027C52E170070BBF9 /* CustomKeyboard */,
+				4B1A80DF27C52E170070BBF9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4B20446727C4CA520025BB9C /* Products */ = {
+		4B1A80DF27C52E170070BBF9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B20446627C4CA520025BB9C /* ColourMixer.app */,
+				4B1A80DE27C52E170070BBF9 /* CustomKeyboard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B20446827C4CA520025BB9C /* ColourMixer */ = {
+		4B1A80E027C52E170070BBF9 /* CustomKeyboard */ = {
 			isa = PBXGroup;
 			children = (
-				4B20449927C4CA830025BB9C /* Startup */,
-				4B20449A27C4CA8F0025BB9C /* Controllers */,
-				4B20449B27C4CA970025BB9C /* Views */,
-				4B8BF86627C52F64009AB409 /* Resources */,
-				4B20447727C4CA540025BB9C /* Info.plist */,
+				4B8BF86927C530F6009AB409 /* Extensions */,
+				4B8BF86227C52F27009AB409 /* Startup */,
+				4B8BF86327C52F2F009AB409 /* Controllers */,
+				4B8BF86427C52F37009AB409 /* Views */,
+				4B8BF86527C52F3C009AB409 /* Resources */,
+				4B1A80EF27C52E180070BBF9 /* Info.plist */,
 			);
-			path = ColourMixer;
+			path = CustomKeyboard;
 			sourceTree = "<group>";
 		};
-		4B20449927C4CA830025BB9C /* Startup */ = {
+		4B8BF86227C52F27009AB409 /* Startup */ = {
 			isa = PBXGroup;
 			children = (
-				4B20446927C4CA520025BB9C /* AppDelegate.swift */,
-				4B20446B27C4CA520025BB9C /* SceneDelegate.swift */,
+				4B1A80E127C52E170070BBF9 /* AppDelegate.swift */,
+				4B1A80E327C52E170070BBF9 /* SceneDelegate.swift */,
 			);
 			path = Startup;
 			sourceTree = "<group>";
 		};
-		4B20449A27C4CA8F0025BB9C /* Controllers */ = {
+		4B8BF86327C52F2F009AB409 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4B20446D27C4CA520025BB9C /* ViewController.swift */,
+				4B1A80E527C52E170070BBF9 /* ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		4B20449B27C4CA970025BB9C /* Views */ = {
+		4B8BF86427C52F37009AB409 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4B20446F27C4CA520025BB9C /* Main.storyboard */,
-				4B20447427C4CA540025BB9C /* LaunchScreen.storyboard */,
-				4B2044A027C4CB4D0025BB9C /* ReusableColorSlider */,
+				4B1A80E727C52E170070BBF9 /* Main.storyboard */,
+				4B1A80EC27C52E180070BBF9 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		4B2044A027C4CB4D0025BB9C /* ReusableColorSlider */ = {
+		4B8BF86527C52F3C009AB409 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4B20449C27C4CB400025BB9C /* ReusableColorSlider.swift */,
-				4B20449E27C4CB4A0025BB9C /* ReusableColorSlider.xib */,
-			);
-			path = ReusableColorSlider;
-			sourceTree = "<group>";
-		};
-		4B8BF86627C52F64009AB409 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				4B20447227C4CA540025BB9C /* Assets.xcassets */,
+				4B1A80EA27C52E180070BBF9 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		4B8BF86927C530F6009AB409 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4B8BF86727C5309D009AB409 /* ColorExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4B20446527C4CA520025BB9C /* ColourMixer */ = {
+		4B1A80DD27C52E170070BBF9 /* CustomKeyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B20449027C4CA540025BB9C /* Build configuration list for PBXNativeTarget "ColourMixer" */;
+			buildConfigurationList = 4B1A810827C52E190070BBF9 /* Build configuration list for PBXNativeTarget "CustomKeyboard" */;
 			buildPhases = (
-				4B20446227C4CA520025BB9C /* Sources */,
-				4B20446327C4CA520025BB9C /* Frameworks */,
-				4B20446427C4CA520025BB9C /* Resources */,
+				4B1A80DA27C52E170070BBF9 /* Sources */,
+				4B1A80DB27C52E170070BBF9 /* Frameworks */,
+				4B1A80DC27C52E170070BBF9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ColourMixer;
-			productName = ColourMixer;
-			productReference = 4B20446627C4CA520025BB9C /* ColourMixer.app */;
+			name = CustomKeyboard;
+			productName = CustomKeyboard;
+			productReference = 4B1A80DE27C52E170070BBF9 /* CustomKeyboard.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4B20445E27C4CA510025BB9C /* Project object */ = {
+		4B1A80D627C52E160070BBF9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					4B20446527C4CA520025BB9C = {
+					4B1A80DD27C52E170070BBF9 = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = 4B20446127C4CA510025BB9C /* Build configuration list for PBXProject "ColourMixer" */;
+			buildConfigurationList = 4B1A80D927C52E160070BBF9 /* Build configuration list for PBXProject "CustomKeyboard" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -156,57 +153,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 4B20445D27C4CA510025BB9C;
-			productRefGroup = 4B20446727C4CA520025BB9C /* Products */;
+			mainGroup = 4B1A80D527C52E160070BBF9;
+			productRefGroup = 4B1A80DF27C52E170070BBF9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B20446527C4CA520025BB9C /* ColourMixer */,
+				4B1A80DD27C52E170070BBF9 /* CustomKeyboard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4B20446427C4CA520025BB9C /* Resources */ = {
+		4B1A80DC27C52E170070BBF9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B20447627C4CA540025BB9C /* LaunchScreen.storyboard in Resources */,
-				4B20449F27C4CB4A0025BB9C /* ReusableColorSlider.xib in Resources */,
-				4B20447327C4CA540025BB9C /* Assets.xcassets in Resources */,
-				4B20447127C4CA520025BB9C /* Main.storyboard in Resources */,
+				4B1A80EE27C52E180070BBF9 /* LaunchScreen.storyboard in Resources */,
+				4B1A80EB27C52E180070BBF9 /* Assets.xcassets in Resources */,
+				4B1A80E927C52E170070BBF9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4B20446227C4CA520025BB9C /* Sources */ = {
+		4B1A80DA27C52E170070BBF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B20446E27C4CA520025BB9C /* ViewController.swift in Sources */,
-				4B20449D27C4CB400025BB9C /* ReusableColorSlider.swift in Sources */,
-				4B20446A27C4CA520025BB9C /* AppDelegate.swift in Sources */,
-				4B20446C27C4CA520025BB9C /* SceneDelegate.swift in Sources */,
+				4B1A80E627C52E170070BBF9 /* ViewController.swift in Sources */,
+				4B1A80E227C52E170070BBF9 /* AppDelegate.swift in Sources */,
+				4B1A80E427C52E170070BBF9 /* SceneDelegate.swift in Sources */,
+				4B8BF86827C5309D009AB409 /* ColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4B20446F27C4CA520025BB9C /* Main.storyboard */ = {
+		4B1A80E727C52E170070BBF9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4B20447027C4CA520025BB9C /* Base */,
+				4B1A80E827C52E170070BBF9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4B20447427C4CA540025BB9C /* LaunchScreen.storyboard */ = {
+		4B1A80EC27C52E180070BBF9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4B20447527C4CA540025BB9C /* Base */,
+				4B1A80ED27C52E180070BBF9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -214,7 +210,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4B20448E27C4CA540025BB9C /* Debug */ = {
+		4B1A810627C52E190070BBF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -275,7 +271,7 @@
 			};
 			name = Debug;
 		};
-		4B20448F27C4CA540025BB9C /* Release */ = {
+		4B1A810727C52E190070BBF9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,7 +326,7 @@
 			};
 			name = Release;
 		};
-		4B20449127C4CA540025BB9C /* Debug */ = {
+		4B1A810927C52E190070BBF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -339,7 +335,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FVZ5PWG6VV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ColourMixer/Info.plist;
+				INFOPLIST_FILE = CustomKeyboard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -350,7 +346,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.visal.lk.ColourMixer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.visal.lk.CustomKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -358,7 +354,7 @@
 			};
 			name = Debug;
 		};
-		4B20449227C4CA540025BB9C /* Release */ = {
+		4B1A810A27C52E190070BBF9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -367,7 +363,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FVZ5PWG6VV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ColourMixer/Info.plist;
+				INFOPLIST_FILE = CustomKeyboard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -378,7 +374,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.visal.lk.ColourMixer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.visal.lk.CustomKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -389,25 +385,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B20446127C4CA510025BB9C /* Build configuration list for PBXProject "ColourMixer" */ = {
+		4B1A80D927C52E160070BBF9 /* Build configuration list for PBXProject "CustomKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B20448E27C4CA540025BB9C /* Debug */,
-				4B20448F27C4CA540025BB9C /* Release */,
+				4B1A810627C52E190070BBF9 /* Debug */,
+				4B1A810727C52E190070BBF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B20449027C4CA540025BB9C /* Build configuration list for PBXNativeTarget "ColourMixer" */ = {
+		4B1A810827C52E190070BBF9 /* Build configuration list for PBXNativeTarget "CustomKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B20449127C4CA540025BB9C /* Debug */,
-				4B20449227C4CA540025BB9C /* Release */,
+				4B1A810927C52E190070BBF9 /* Debug */,
+				4B1A810A27C52E190070BBF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4B20445E27C4CA510025BB9C /* Project object */;
+	rootObject = 4B1A80D627C52E160070BBF9 /* Project object */;
 }
