@@ -82,3 +82,11 @@ extension ViewController: ColorSliderProtocol {
         setColor()
     }
 }
+
+// MARK: Tutorial to connect reusables
+/// To add `ReusableColorSlider` into the parent view. You will need to...
+///     > First, open `Main.storyboard`
+///     > Search and add a few `UIViews` (I've added them into a vertical stackview)
+///     > Select one or all the `UIViews` and open the `Identity Inspector (4th from the left)`
+///     > Change the `class` attribute to the custom class name
+///     > Make the connections
