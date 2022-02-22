@@ -25,19 +25,29 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="unD-jj-Vrf">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="512"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WfZ-ms-nP3">
-                                        <rect key="frame" x="16" y="231" width="382" height="50.5"/>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="42"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eUb-4j-dxI">
+                                        <rect key="frame" x="16" y="213" width="382" height="86.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WfZ-ms-nP3">
+                                                <rect key="frame" x="0.0" y="0.0" width="382" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTu-I7-Wzd">
+                                                <rect key="frame" x="0.0" y="36" width="382" height="50.5"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="42"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
-                                    <constraint firstItem="WfZ-ms-nP3" firstAttribute="centerX" secondItem="unD-jj-Vrf" secondAttribute="centerX" id="B4V-j8-UmM"/>
-                                    <constraint firstItem="WfZ-ms-nP3" firstAttribute="leading" secondItem="unD-jj-Vrf" secondAttribute="leading" constant="16" id="H4p-8z-jMF"/>
-                                    <constraint firstItem="WfZ-ms-nP3" firstAttribute="centerY" secondItem="unD-jj-Vrf" secondAttribute="centerY" id="mq6-Sj-znS"/>
-                                    <constraint firstAttribute="trailing" secondItem="WfZ-ms-nP3" secondAttribute="trailing" constant="16" id="yBH-AF-ccL"/>
+                                    <constraint firstItem="eUb-4j-dxI" firstAttribute="centerY" secondItem="unD-jj-Vrf" secondAttribute="centerY" id="IR2-3g-gUh"/>
+                                    <constraint firstAttribute="trailing" secondItem="eUb-4j-dxI" secondAttribute="trailing" constant="16" id="e5k-JA-HuP"/>
+                                    <constraint firstItem="eUb-4j-dxI" firstAttribute="leading" secondItem="unD-jj-Vrf" secondAttribute="leading" constant="16" id="oef-b7-WGo"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -56,6 +66,7 @@
                     <connections>
                         <outlet property="calculatorLabel" destination="WfZ-ms-nP3" id="25C-OY-s8G"/>
                         <outlet property="customKeyboard" destination="CFb-sI-cch" id="ftM-L7-MbQ"/>
+                        <outlet property="inputLabel" destination="sTu-I7-Wzd" id="V4p-zQ-spy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

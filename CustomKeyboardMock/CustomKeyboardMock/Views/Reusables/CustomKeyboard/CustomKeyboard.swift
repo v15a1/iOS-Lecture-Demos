@@ -8,6 +8,7 @@
 import UIKit
 
 enum Operator: String {
+    case none = ""
     case substract = "-"
     case add = "+"
     case equate = "="

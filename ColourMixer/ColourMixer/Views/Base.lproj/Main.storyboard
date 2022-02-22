@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Color Mixer-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Color Mixer" id="BYZ-38-t0r" customClass="ViewController" customModule="ColourMixer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Np5-QT-XYK">
+                                <rect key="frame" x="0.0" y="602" width="414" height="210"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kNW-UZ-djV" customClass="ReusableColorSlider" customModule="ColourMixer" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="Nly-YU-UIV"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BmR-ij-1Gg" customClass="ReusableColorSlider" customModule="ColourMixer" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="70" width="414" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="70Z-eO-z8R"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IQG-Bp-ywN" customClass="ReusableColorSlider" customModule="ColourMixer" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="140" width="414" height="70"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="VaL-a7-erJ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tc5-6b-mIj">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="602"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ViU-cS-7KS">
+                                        <rect key="frame" x="20" y="280" width="374" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="ViU-cS-7KS" firstAttribute="centerY" secondItem="Tc5-6b-mIj" secondAttribute="centerY" id="454-zD-H0p"/>
+                                    <constraint firstItem="ViU-cS-7KS" firstAttribute="centerX" secondItem="Tc5-6b-mIj" secondAttribute="centerX" id="OAu-Wy-htL"/>
+                                    <constraint firstItem="ViU-cS-7KS" firstAttribute="leading" secondItem="Tc5-6b-mIj" secondAttribute="leading" constant="20" id="T16-4C-XI3"/>
+                                    <constraint firstAttribute="trailing" secondItem="ViU-cS-7KS" secondAttribute="trailing" constant="20" id="oVH-8w-pbQ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Np5-QT-XYK" firstAttribute="top" secondItem="Tc5-6b-mIj" secondAttribute="bottom" id="8E7-5S-2jz"/>
+                            <constraint firstItem="Tc5-6b-mIj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="AmQ-JL-5UL"/>
+                            <constraint firstItem="Tc5-6b-mIj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="BlN-o4-p0h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Np5-QT-XYK" secondAttribute="bottom" constant="50" id="Q3x-Xx-ITc"/>
+                            <constraint firstItem="Np5-QT-XYK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ZC1-et-q16"/>
+                            <constraint firstItem="Np5-QT-XYK" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="qCC-TO-XJV"/>
+                            <constraint firstItem="Tc5-6b-mIj" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="wfC-PA-1t5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="blueSlider" destination="IQG-Bp-ywN" id="Lja-K5-j5d"/>
+                        <outlet property="colorLabel" destination="ViU-cS-7KS" id="UFi-IK-5uU"/>
+                        <outlet property="colorView" destination="Tc5-6b-mIj" id="lbM-w1-4Gc"/>
+                        <outlet property="greenSlider" destination="BmR-ij-1Gg" id="OeM-gd-bDw"/>
+                        <outlet property="redSlider" destination="kNW-UZ-djV" id="yTY-x7-ZUs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="128.98550724637681" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
