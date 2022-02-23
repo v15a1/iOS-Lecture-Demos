@@ -1,3 +1,3 @@
 # What we will make
 
-![Triangle area calculator](../Documentation/triangleArea.gif)
+![Triangle area calculator](../../Documentation/triangleArea.gif)
