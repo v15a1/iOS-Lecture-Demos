@@ -1,2 +1,2 @@
 # What we will make
-![image description](../Documentation/colorpicker.gif)
+![image description](../../Documentation/colorpicker.gif)
