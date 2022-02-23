@@ -1,8 +1,11 @@
 #  ``ColourMixer``
 
 ## Contents this demo will cover
-
-* Using Nibs to create reusable views
-* Protocols  
+* Setting up the project
+* Project Structure (What I stick to atleast)
+* Custom `UIColors` & Extensions
+* Applying Custom Icons
+* The many ways to unwrap `optionals`
+* The `weak` keyword
 * `UISliders`
 * `Tags`
