@@ -23,7 +23,7 @@
 - [ ] Once the controller file is created, open the New File wizard and this time select `View` from the `Interface` section. Name it the same as your controller class
 
 #### Setting the File Owner and layout
-- [ ] Open your XIB folder and layout the UI as you wish (You can't connect to the custom class just yet)
+- [ ] Open your XIB file and layout the UI as you wish (You can't connect to the custom class just yet)
 - [ ] Afterwards, Set the class as your File Owner by following the steps below:
   * Open the **View Hierarchy**
   * Under **Placeholders** select the **File's Owner** option
