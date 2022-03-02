@@ -34,4 +34,6 @@ class ReusableImageView: UIView {
         imageName.text = name
         imageView.image = image
     }
+
+    
 }
