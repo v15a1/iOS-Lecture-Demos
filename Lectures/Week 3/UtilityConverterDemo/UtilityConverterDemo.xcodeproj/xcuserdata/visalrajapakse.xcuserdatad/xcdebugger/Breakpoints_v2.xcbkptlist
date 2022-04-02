@@ -20,5 +20,113 @@
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D0C77F7-92A7-4E80-9B8E-0C8EC535E676"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UtilityConverterDemo/Controllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "5D0C77F7-92A7-4E80-9B8E-0C8EC535E676 - a8aa67434c6fc9f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UtilityConverterDemo.ViewController.textfields.getter : Swift.Optional&lt;Swift.Array&lt;__C.UITextField&gt;&gt;"
+                  moduleName = "UtilityConverterDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visalrajapakse/Documents/XCode/Mobile%20Native%20Development/Lectures/Week%203/UtilityConverterDemo/UtilityConverterDemo/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  uuid = "5D0C77F7-92A7-4E80-9B8E-0C8EC535E676 - d7e27b8adbdb9080"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UtilityConverterDemo.ViewController.textfields.setter : Swift.Optional&lt;Swift.Array&lt;__C.UITextField&gt;&gt;"
+                  moduleName = "UtilityConverterDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visalrajapakse/Documents/XCode/Mobile%20Native%20Development/Lectures/Week%203/UtilityConverterDemo/UtilityConverterDemo/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "5D0C77F7-92A7-4E80-9B8E-0C8EC535E676 - 541a2d8db9562d7f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UtilityConverterDemo.ViewController.textfields.modify : Swift.Optional&lt;Swift.Array&lt;__C.UITextField&gt;&gt;"
+                  moduleName = "UtilityConverterDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visalrajapakse/Documents/XCode/Mobile%20Native%20Development/Lectures/Week%203/UtilityConverterDemo/UtilityConverterDemo/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "5D0C77F7-92A7-4E80-9B8E-0C8EC535E676 - c91003bc1e508f21"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UtilityConverterDemo.ViewController.textfields.modify : Swift.Optional&lt;Swift.Array&lt;__C.UITextField&gt;&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "UtilityConverterDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visalrajapakse/Documents/XCode/Mobile%20Native%20Development/Lectures/Week%203/UtilityConverterDemo/UtilityConverterDemo/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "5D0C77F7-92A7-4E80-9B8E-0C8EC535E676 - 5bdd60718079ec95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UtilityConverterDemo.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; UtilityConverterDemo.ViewController"
+                  moduleName = "UtilityConverterDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visalrajapakse/Documents/XCode/Mobile%20Native%20Development/Lectures/Week%203/UtilityConverterDemo/UtilityConverterDemo/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "170">
+               </Location>
+               <Location
+                  uuid = "5D0C77F7-92A7-4E80-9B8E-0C8EC535E676 - 7f987765352a2f50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UtilityConverterDemo.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;UtilityConverterDemo.ViewController&gt;"
+                  moduleName = "UtilityConverterDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visalrajapakse/Documents/XCode/Mobile%20Native%20Development/Lectures/Week%203/UtilityConverterDemo/UtilityConverterDemo/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "127">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

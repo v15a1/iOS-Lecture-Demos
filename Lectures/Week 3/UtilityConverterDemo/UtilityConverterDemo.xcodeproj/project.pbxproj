@@ -15,6 +15,8 @@
 		4B7C3F6627CF1B9400132953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7C3F6427CF1B9400132953 /* LaunchScreen.storyboard */; };
 		4B7C3F7327CF1D1A00132953 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7C3F7227CF1D1A00132953 /* ReusableView.swift */; };
 		4B7C3F7527CF1D6A00132953 /* ReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B7C3F7427CF1D6A00132953 /* ReusableView.xib */; };
+		4BA5C05E27E19D0E00782907 /* Weight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5C05D27E19D0E00782907 /* Weight.swift */; };
+		4BA5C06027E1A16500782907 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5C05F27E1A16500782907 /* HistoryViewController.swift */; };
 		4BB4765D27CF3B3C00D1912D /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4765C27CF3B3C00D1912D /* LandingViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,8 @@
 		4B7C3F6727CF1B9400132953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B7C3F7227CF1D1A00132953 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		4B7C3F7427CF1D6A00132953 /* ReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReusableView.xib; sourceTree = "<group>"; };
+		4BA5C05D27E19D0E00782907 /* Weight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight.swift; sourceTree = "<group>"; };
+		4BA5C05F27E1A16500782907 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		4BB4765C27CF3B3C00D1912D /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +66,7 @@
 		4B7C3F5827CF1B9100132953 /* UtilityConverterDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4BA5C05C27E19CC200782907 /* Models */,
 				4B7C3F6D27CF1BE300132953 /* Startup */,
 				4B7C3F6E27CF1BED00132953 /* Controllers */,
 				4B7C3F6F27CF1BFC00132953 /* Views */,
@@ -85,6 +90,7 @@
 			children = (
 				4B7C3F5D27CF1B9100132953 /* ViewController.swift */,
 				4BB4765C27CF3B3C00D1912D /* LandingViewController.swift */,
+				4BA5C05F27E1A16500782907 /* HistoryViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -114,6 +120,14 @@
 				4B7C3F7427CF1D6A00132953 /* ReusableView.xib */,
 			);
 			path = ReusableKeyboard;
+			sourceTree = "<group>";
+		};
+		4BA5C05C27E19CC200782907 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4BA5C05D27E19D0E00782907 /* Weight.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +207,8 @@
 				4B7C3F5C27CF1B9100132953 /* SceneDelegate.swift in Sources */,
 				4BB4765D27CF3B3C00D1912D /* LandingViewController.swift in Sources */,
 				4B7C3F7327CF1D1A00132953 /* ReusableView.swift in Sources */,
+				4BA5C06027E1A16500782907 /* HistoryViewController.swift in Sources */,
+				4BA5C05E27E19D0E00782907 /* Weight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,9 +355,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FVZ5PWG6VV;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UtilityConverterDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -356,6 +372,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.visal.lk.UtilityConverterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -367,9 +384,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FVZ5PWG6VV;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UtilityConverterDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -384,6 +401,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.visal.lk.UtilityConverterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

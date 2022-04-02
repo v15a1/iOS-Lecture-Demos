@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Chicken Sizzler",
+        "ingredients": "Green Chillies, Jalapeños, Red Onions, Chicken",
+        "imageName": "chicken_sizzler",
+        "thumbnailName": "chicken_sizzler",
+        "type": "meat"
+    },
+    {
+        "name": "Beef Sizzler",
+        "ingredients": "Green Chillies, Jalapeños, Red Onions, Seasoned Minced Beef",
+        "imageName": "beef_sizzler",
+        "thumbnailName": "beef_sizzler",
+        "type": "meat"
+    },
+    {
+        "name": "Meat Feast",
+        "ingredients": "Green Chillies, Jalapeños, Red Onions, Chicken, Seasoned Minced Beef",
+        "imageName": "meat_feast",
+        "thumbnailName": "meat_feast",
+        "type": "meat"
+    },
+]
