@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct PizzaApplicationApp: App {
+    
+    @StateObject private var dataController = DataController()
+    
     var body: some Scene {
         WindowGroup {
             ContentView() // Starting point of the app. Change the view according to what you want to show firstt
+                .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
 }

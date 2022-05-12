@@ -11,7 +11,17 @@ struct PizzaList: View {
 
     @State private var selection = 0 // State variable for the Segmented Picker selection
     @State private var isSheetShowing = false // State variable representing if the action sheet is open/not
-    let pizzaModel = PizzaModel()
+    @Environment(\.managedObjectContext) var context // Context tells us that we are trying to save data in "THIS" application
+
+    /*
+     * SwiftUI is declarative -- Meaning if we specify what we want it will automatically do it for us
+     * FetchRequest listens to any updates in the database for type `Pizza` and updates the list if any updates have occured
+     */
+    @FetchRequest(entity: Pizza.entity(), sortDescriptors: []) var pizzas: FetchedResults<Pizza>
+    
+    init() {
+//        self.pizzas = @FetchRequest(entity: Pizza.entity(), sortDescriptors: [])
+    }
 
     var body: some View {
         NavigationView { // NavigationView should be the top most View.
@@ -22,18 +32,31 @@ struct PizzaList: View {
                     Text("Veggie🥦").tag(2)
                 }
                 .pickerStyle(.segmented)
-                List(pizzaModel.pizzas, id: \.name) { pizza in  /// `\.name` is used to uniquely indentify each of the elements
-                    NavigationLink { /// Navigation link to navigate to `PizzaDetailView(pizza:_)`
+                List(pizzas, id: \.name) { pizza in  // `\.name` is used to uniquely indentify each of the elements
+                    NavigationLink { // Navigation link to navigate to `PizzaDetailView(pizza:_)`
                         PizzaDetailView(pizza: pizza) // Custom view.
                     } label: {
                         HStack {
-                            Image(pizza.imageName)
+                            Image(pizza.imageName ?? "")
                                 .resizable()
                                 .frame(width: 100, height: 100)
-                            Text(pizza.name)
+                            Text(pizza.name ?? "")
                         }
                     }
+                    .swipeActions(edge: .trailing, allowsFullSwipe: false) {
+                        Button {
+                            context.delete(pizza)
+                            try? context.save()
+                        } label: {
+                            Label("Delete", systemImage: "trash")
+                        }
+
+                        
+                    }
                 }
+                .onChange(of: selection, perform: { newValue in
+                    print(newValue)
+                })
                 .listStyle(PlainListStyle()) // PlainListStyle
             }
             .navigationBarTitle("Pizzas", displayMode: .inline)

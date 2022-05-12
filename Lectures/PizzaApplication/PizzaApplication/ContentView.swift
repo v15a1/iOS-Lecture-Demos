@@ -12,9 +12,9 @@ struct ContentView: View {
         TabView { // Including a tab
             PizzaList()
                 .tabItem { // It should be a VC + Should have a tab bar item.
-                    Label("Pizza List", systemImage: "list.dash") /// `Label` to show a
+                    Label("Pizza List", systemImage: "list.dash") /// `Label` to show a tab item
                 }
-            Text("Favourites")
+            FavouriteList()
                 .tabItem { /// Include `.tabItem` to ensure the view knows that the user
                     Label("Favourites", systemImage: "star.fill")
 

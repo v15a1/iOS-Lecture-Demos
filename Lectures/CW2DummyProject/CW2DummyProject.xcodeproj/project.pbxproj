@@ -7,40 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B39FD3127F4054D00111B73 /* PizzaApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B39FD3027F4054D00111B73 /* PizzaApplicationApp.swift */; };
-		4B39FD3327F4054D00111B73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B39FD3227F4054D00111B73 /* ContentView.swift */; };
-		4B39FD3527F4054F00111B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B39FD3427F4054F00111B73 /* Assets.xcassets */; };
-		4B39FD3827F4054F00111B73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B39FD3727F4054F00111B73 /* Preview Assets.xcassets */; };
-		4B39FD3F27F40AB800111B73 /* PizzaList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B39FD3E27F40AB800111B73 /* PizzaList.swift */; };
-		4B39FD4127F4133400111B73 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B39FD4027F4133400111B73 /* Pizza.swift */; };
-		4B39FD4327F4294100111B73 /* NewPizzaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B39FD4227F4294100111B73 /* NewPizzaView.swift */; };
-		4B39FD4527F4336700111B73 /* PizzaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B39FD4427F4336700111B73 /* PizzaDetailView.swift */; };
-		4B39FD4727F4378C00111B73 /* Pizzas.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B39FD4627F4378C00111B73 /* Pizzas.json */; };
-		4B39FD4927F4388500111B73 /* PizzaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B39FD4827F4388500111B73 /* PizzaModel.swift */; };
-		4BA2CB3427FD3C87002C9A54 /* Pizzas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BA2CB3227FD3C87002C9A54 /* Pizzas.xcdatamodeld */; };
-		4BA2CB3627FD3E33002C9A54 /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA2CB3527FD3E33002C9A54 /* DatabaseController.swift */; };
-		4BA2CB3827FD4FC1002C9A54 /* FavouriteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA2CB3727FD4FC0002C9A54 /* FavouriteList.swift */; };
+		4B56FCE727F8361500720319 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B56FCE627F8361500720319 /* HomeView.swift */; };
+		4B56FCE927F83A0700720319 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B56FCE827F83A0700720319 /* Constants.swift */; };
+		4B56FCEB27F83D6C00720319 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B56FCEA27F83D6C00720319 /* Weather.swift */; };
+		4B56FCED27F8412A00720319 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B56FCEC27F8412A00720319 /* WeatherManager.swift */; };
+		4B56FCEF27F84CDB00720319 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B56FCEE27F84CDB00720319 /* WeatherModel.swift */; };
+		4BD767B527F7F7D9008365BB /* CW2DummyProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD767B427F7F7D9008365BB /* CW2DummyProjectApp.swift */; };
+		4BD767B727F7F7D9008365BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD767B627F7F7D9008365BB /* ContentView.swift */; };
+		4BD767B927F7F7DC008365BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD767B827F7F7DC008365BB /* Assets.xcassets */; };
+		4BD767BC27F7F7DC008365BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD767BB27F7F7DC008365BB /* Preview Assets.xcassets */; };
+		4BD767C427F7F922008365BB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD767C327F7F922008365BB /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4B39FD2D27F4054D00111B73 /* PizzaApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B39FD3027F4054D00111B73 /* PizzaApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaApplicationApp.swift; sourceTree = "<group>"; };
-		4B39FD3227F4054D00111B73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4B39FD3427F4054F00111B73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4B39FD3727F4054F00111B73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4B39FD3E27F40AB800111B73 /* PizzaList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaList.swift; sourceTree = "<group>"; };
-		4B39FD4027F4133400111B73 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
-		4B39FD4227F4294100111B73 /* NewPizzaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPizzaView.swift; sourceTree = "<group>"; };
-		4B39FD4427F4336700111B73 /* PizzaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaDetailView.swift; sourceTree = "<group>"; };
-		4B39FD4627F4378C00111B73 /* Pizzas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Pizzas.json; sourceTree = "<group>"; };
-		4B39FD4827F4388500111B73 /* PizzaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaModel.swift; sourceTree = "<group>"; };
-		4BA2CB3327FD3C87002C9A54 /* Pizzas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pizzas.xcdatamodel; sourceTree = "<group>"; };
-		4BA2CB3527FD3E33002C9A54 /* DatabaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
-		4BA2CB3727FD4FC0002C9A54 /* FavouriteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteList.swift; sourceTree = "<group>"; };
+		4B56FCE627F8361500720319 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4B56FCE827F83A0700720319 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4B56FCEA27F83D6C00720319 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		4B56FCEC27F8412A00720319 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		4B56FCEE27F84CDB00720319 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		4BD767B127F7F7D9008365BB /* CW2DummyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CW2DummyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD767B427F7F7D9008365BB /* CW2DummyProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CW2DummyProjectApp.swift; sourceTree = "<group>"; };
+		4BD767B627F7F7D9008365BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4BD767B827F7F7DC008365BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BD767BB27F7F7DC008365BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4BD767C327F7F922008365BB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4B39FD2A27F4054D00111B73 /* Frameworks */ = {
+		4BD767AE27F7F7D9008365BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,86 +44,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4B39FD2427F4054D00111B73 = {
+		4BD767A827F7F7D9008365BB = {
 			isa = PBXGroup;
 			children = (
-				4B39FD2F27F4054D00111B73 /* PizzaApplication */,
-				4B39FD2E27F4054D00111B73 /* Products */,
+				4BD767B327F7F7D9008365BB /* CW2DummyProject */,
+				4BD767B227F7F7D9008365BB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4B39FD2E27F4054D00111B73 /* Products */ = {
+		4BD767B227F7F7D9008365BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B39FD2D27F4054D00111B73 /* PizzaApplication.app */,
+				4BD767B127F7F7D9008365BB /* CW2DummyProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B39FD2F27F4054D00111B73 /* PizzaApplication */ = {
+		4BD767B327F7F7D9008365BB /* CW2DummyProject */ = {
 			isa = PBXGroup;
 			children = (
-				4B39FD3027F4054D00111B73 /* PizzaApplicationApp.swift */,
-				4B39FD3227F4054D00111B73 /* ContentView.swift */,
-				4BA2CB3727FD4FC0002C9A54 /* FavouriteList.swift */,
-				4B39FD3427F4054F00111B73 /* Assets.xcassets */,
-				4B39FD3627F4054F00111B73 /* Preview Content */,
-				4B39FD3E27F40AB800111B73 /* PizzaList.swift */,
-				4B39FD4627F4378C00111B73 /* Pizzas.json */,
-				4B39FD4827F4388500111B73 /* PizzaModel.swift */,
-				4B39FD4427F4336700111B73 /* PizzaDetailView.swift */,
-				4B39FD4027F4133400111B73 /* Pizza.swift */,
-				4B39FD4227F4294100111B73 /* NewPizzaView.swift */,
-				4BA2CB3227FD3C87002C9A54 /* Pizzas.xcdatamodeld */,
-				4BA2CB3527FD3E33002C9A54 /* DatabaseController.swift */,
+				4BD767B427F7F7D9008365BB /* CW2DummyProjectApp.swift */,
+				4BD767B627F7F7D9008365BB /* ContentView.swift */,
+				4BD767C227F7F7F6008365BB /* Pages */,
+				4BD767B827F7F7DC008365BB /* Assets.xcassets */,
+				4BD767BA27F7F7DC008365BB /* Preview Content */,
+				4B56FCE827F83A0700720319 /* Constants.swift */,
+				4B56FCEA27F83D6C00720319 /* Weather.swift */,
+				4B56FCEE27F84CDB00720319 /* WeatherModel.swift */,
+				4B56FCEC27F8412A00720319 /* WeatherManager.swift */,
 			);
-			path = PizzaApplication;
+			path = CW2DummyProject;
 			sourceTree = "<group>";
 		};
-		4B39FD3627F4054F00111B73 /* Preview Content */ = {
+		4BD767BA27F7F7DC008365BB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				4B39FD3727F4054F00111B73 /* Preview Assets.xcassets */,
+				4BD767BB27F7F7DC008365BB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4BD767C227F7F7F6008365BB /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				4BD767C327F7F922008365BB /* DetailView.swift */,
+				4B56FCE627F8361500720319 /* HomeView.swift */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4B39FD2C27F4054D00111B73 /* PizzaApplication */ = {
+		4BD767B027F7F7D9008365BB /* CW2DummyProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B39FD3B27F4054F00111B73 /* Build configuration list for PBXNativeTarget "PizzaApplication" */;
+			buildConfigurationList = 4BD767BF27F7F7DC008365BB /* Build configuration list for PBXNativeTarget "CW2DummyProject" */;
 			buildPhases = (
-				4B39FD2927F4054D00111B73 /* Sources */,
-				4B39FD2A27F4054D00111B73 /* Frameworks */,
-				4B39FD2B27F4054D00111B73 /* Resources */,
+				4BD767AD27F7F7D9008365BB /* Sources */,
+				4BD767AE27F7F7D9008365BB /* Frameworks */,
+				4BD767AF27F7F7D9008365BB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PizzaApplication;
-			productName = PizzaApplication;
-			productReference = 4B39FD2D27F4054D00111B73 /* PizzaApplication.app */;
+			name = CW2DummyProject;
+			productName = CW2DummyProject;
+			productReference = 4BD767B127F7F7D9008365BB /* CW2DummyProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4B39FD2527F4054D00111B73 /* Project object */ = {
+		4BD767A927F7F7D9008365BB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					4B39FD2C27F4054D00111B73 = {
+					4BD767B027F7F7D9008365BB = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 4B39FD2827F4054D00111B73 /* Build configuration list for PBXProject "PizzaApplication" */;
+			buildConfigurationList = 4BD767AC27F7F7D9008365BB /* Build configuration list for PBXProject "CW2DummyProject" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,51 +136,48 @@
 				en,
 				Base,
 			);
-			mainGroup = 4B39FD2427F4054D00111B73;
-			productRefGroup = 4B39FD2E27F4054D00111B73 /* Products */;
+			mainGroup = 4BD767A827F7F7D9008365BB;
+			productRefGroup = 4BD767B227F7F7D9008365BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B39FD2C27F4054D00111B73 /* PizzaApplication */,
+				4BD767B027F7F7D9008365BB /* CW2DummyProject */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4B39FD2B27F4054D00111B73 /* Resources */ = {
+		4BD767AF27F7F7D9008365BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B39FD3827F4054F00111B73 /* Preview Assets.xcassets in Resources */,
-				4B39FD3527F4054F00111B73 /* Assets.xcassets in Resources */,
-				4B39FD4727F4378C00111B73 /* Pizzas.json in Resources */,
+				4BD767BC27F7F7DC008365BB /* Preview Assets.xcassets in Resources */,
+				4BD767B927F7F7DC008365BB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4B39FD2927F4054D00111B73 /* Sources */ = {
+		4BD767AD27F7F7D9008365BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B39FD4527F4336700111B73 /* PizzaDetailView.swift in Sources */,
-				4B39FD4327F4294100111B73 /* NewPizzaView.swift in Sources */,
-				4B39FD4127F4133400111B73 /* Pizza.swift in Sources */,
-				4B39FD3F27F40AB800111B73 /* PizzaList.swift in Sources */,
-				4BA2CB3427FD3C87002C9A54 /* Pizzas.xcdatamodeld in Sources */,
-				4BA2CB3627FD3E33002C9A54 /* DatabaseController.swift in Sources */,
-				4B39FD3327F4054D00111B73 /* ContentView.swift in Sources */,
-				4BA2CB3827FD4FC1002C9A54 /* FavouriteList.swift in Sources */,
-				4B39FD4927F4388500111B73 /* PizzaModel.swift in Sources */,
-				4B39FD3127F4054D00111B73 /* PizzaApplicationApp.swift in Sources */,
+				4B56FCE927F83A0700720319 /* Constants.swift in Sources */,
+				4BD767B727F7F7D9008365BB /* ContentView.swift in Sources */,
+				4B56FCE727F8361500720319 /* HomeView.swift in Sources */,
+				4B56FCED27F8412A00720319 /* WeatherManager.swift in Sources */,
+				4BD767C427F7F922008365BB /* DetailView.swift in Sources */,
+				4B56FCEB27F83D6C00720319 /* Weather.swift in Sources */,
+				4B56FCEF27F84CDB00720319 /* WeatherModel.swift in Sources */,
+				4BD767B527F7F7D9008365BB /* CW2DummyProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4B39FD3927F4054F00111B73 /* Debug */ = {
+		4BD767BD27F7F7DC008365BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		4B39FD3A27F4054F00111B73 /* Release */ = {
+		4BD767BE27F7F7DC008365BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,16 +293,19 @@
 			};
 			name = Release;
 		};
-		4B39FD3C27F4054F00111B73 /* Debug */ = {
+		4BD767C027F7F7DC008365BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PizzaApplication/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CW2DummyProject/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -317,7 +316,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.visal.lk.PizzaApplication;
+				PRODUCT_BUNDLE_IDENTIFIER = com.visal.lk.CW2DummyProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,16 +324,19 @@
 			};
 			name = Debug;
 		};
-		4B39FD3D27F4054F00111B73 /* Release */ = {
+		4BD767C127F7F7DC008365BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PizzaApplication/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CW2DummyProject/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -345,7 +347,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.visal.lk.PizzaApplication;
+				PRODUCT_BUNDLE_IDENTIFIER = com.visal.lk.CW2DummyProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -356,38 +358,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B39FD2827F4054D00111B73 /* Build configuration list for PBXProject "PizzaApplication" */ = {
+		4BD767AC27F7F7D9008365BB /* Build configuration list for PBXProject "CW2DummyProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B39FD3927F4054F00111B73 /* Debug */,
-				4B39FD3A27F4054F00111B73 /* Release */,
+				4BD767BD27F7F7DC008365BB /* Debug */,
+				4BD767BE27F7F7DC008365BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B39FD3B27F4054F00111B73 /* Build configuration list for PBXNativeTarget "PizzaApplication" */ = {
+		4BD767BF27F7F7DC008365BB /* Build configuration list for PBXNativeTarget "CW2DummyProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B39FD3C27F4054F00111B73 /* Debug */,
-				4B39FD3D27F4054F00111B73 /* Release */,
+				4BD767C027F7F7DC008365BB /* Debug */,
+				4BD767C127F7F7DC008365BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4BA2CB3227FD3C87002C9A54 /* Pizzas.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4BA2CB3327FD3C87002C9A54 /* Pizzas.xcdatamodel */,
-			);
-			currentVersion = 4BA2CB3327FD3C87002C9A54 /* Pizzas.xcdatamodel */;
-			path = Pizzas.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 4B39FD2527F4054D00111B73 /* Project object */;
+	rootObject = 4BD767A927F7F7D9008365BB /* Project object */;
 }
